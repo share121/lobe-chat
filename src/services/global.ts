@@ -4,7 +4,7 @@ import { lambdaClient } from '@/libs/trpc/client';
 import { LobeAgentConfig } from '@/types/agent';
 import { GlobalRuntimeConfig } from '@/types/serverConfig';
 
-const VERSION_URL = 'https://registry.npmmirror.com/@lobehub/chat/latest';
+const VERSION_URL = 'https://cors.s121.top/https://registry.npmmirror.com/@lobehub/chat/latest';
 
 class GlobalService {
   /**

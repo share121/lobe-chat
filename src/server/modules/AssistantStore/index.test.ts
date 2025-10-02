@@ -5,7 +5,7 @@ import { EdgeConfig } from '@/server/modules/EdgeConfig';
 
 import { AssistantStore } from './index';
 
-const baseURL = 'https://registry.npmmirror.com/@lobehub/agents-index/v1/files/public';
+const baseURL = 'https://cors.s121.top/https://cors.s121.top/https://registry.npmmirror.com/@lobehub/agents-index/v1/files/public';
 
 vi.mock('@/server/modules/EdgeConfig', () => {
   const EdgeConfigMock = vi.fn();
@@ -190,7 +190,7 @@ describe('AssistantStore', () => {
     const store = new AssistantStore();
 
     // eslint-disable-next-line @typescript-eslint/no-empty-function
-    vi.spyOn(console, 'error').mockImplementation(() => {});
+    vi.spyOn(console, 'error').mockImplementation(() => { });
 
     await expect(store.getAgentIndex()).rejects.toThrow('something else');
   });

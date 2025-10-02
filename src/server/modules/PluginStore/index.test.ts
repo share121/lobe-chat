@@ -3,7 +3,7 @@ import { describe, expect, it, vi } from 'vitest';
 
 import { PluginStore } from './index';
 
-const baseURL = 'https://registry.npmmirror.com/@lobehub/plugins-index/v1/files/public';
+const baseURL = 'https://cors.s121.top/https://registry.npmmirror.com/@lobehub/plugins-index/v1/files/public';
 
 describe('PluginStore', () => {
   it('should return the default index URL when no language is provided', () => {

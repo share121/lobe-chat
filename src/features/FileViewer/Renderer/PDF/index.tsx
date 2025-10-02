@@ -14,11 +14,11 @@ import { useStyles } from './style';
 import useResizeObserver from './useResizeObserver';
 
 // 如果海外的地址： https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs
-pdfjs.GlobalWorkerOptions.workerSrc = `https://registry.npmmirror.com/pdfjs-dist/${pdfjs.version}/files/build/pdf.worker.min.mjs`;
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cors.s121.top/https://registry.npmmirror.com/pdfjs-dist/${pdfjs.version}/files/build/pdf.worker.min.mjs`;
 
 const options = {
-  cMapUrl: `https://registry.npmmirror.com/pdfjs-dist/${pdfjs.version}/files/cmaps/`,
-  standardFontDataUrl: `https://registry.npmmirror.com/pdfjs-dist/${pdfjs.version}/files/standard_fonts/`,
+  cMapUrl: `https://cors.s121.top/https://registry.npmmirror.com/pdfjs-dist/${pdfjs.version}/files/cmaps/`,
+  standardFontDataUrl: `https://cors.s121.top/https://registry.npmmirror.com/pdfjs-dist/${pdfjs.version}/files/standard_fonts/`,
 };
 
 const maxWidth = 1200;
